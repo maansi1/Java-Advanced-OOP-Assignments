@@ -63,7 +63,7 @@ Abstract Classes • Inheritance • Interfaces
 
 ## 🎬 Demo
 <p align="center">
-  <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="650" />
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHZzcW5udG90aXBocDhzMmNiYXY5MGtrbmEwaGplMWR5aWVkYTEzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C4NdKtRaQE9m8/giphy.gif" width="650" />
 </p>
 
 ---
