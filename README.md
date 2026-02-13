@@ -1,30 +1,34 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=240&section=header&text=Java%20Advanced%20OOP%20Assignments&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Interactive%20CLI%20Application%20%7C%20Clean%20OOP%20Architecture&descAlignY=62" />
-</p>
+# 🚀 Java Advanced OOP Assignments
+
+> A modular, interactive CLI application demonstrating clean Object-Oriented Programming architecture in Java.
+
+---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=900&lines=Abstract+Classes;Inheritance+%26+Overriding;Interfaces+%26+Polymorphism;Interactive+Menu+Driven+Program;Structured+Package+Architecture" />
+  <img src="https://img.shields.io/github/actions/workflow/status/maansi1/Java-Advanced-OOP-Assignments/ci.yml?style=for-the-badge&label=CI%20Build&color=2563EB" />
+  <img src="https://img.shields.io/badge/version-1.0.0-1E3A8A?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/maansi1/Java-Advanced-OOP-Assignments?style=for-the-badge&color=0F172A" />
+  <img src="https://img.shields.io/badge/Made%20with-Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
 </p>
 
 ---
 
-# 🎯 Project Vision
+## 📌 Overview
 
-This project demonstrates real-world Object-Oriented Programming design  
-through a modular and interactive CLI-based Java application.
+This project demonstrates core Object-Oriented Programming principles through structured packages and an interactive CLI-based application.
 
-It focuses on:
+It covers:
 
-- Clean architecture  
-- Clear separation of concerns  
-- Proper use of abstraction  
-- Interface-driven design  
-- Runtime polymorphism  
-- Interactive execution flow  
+- Abstract Classes  
+- Inheritance  
+- Method Overriding  
+- Interfaces  
+- Runtime Polymorphism  
+- Encapsulation  
 
 ---
 
-# 🧱 Project Structure
+## 🗂 Project Structure
 
 ```
 Java-Advanced-OOP-Assignments/
@@ -45,16 +49,15 @@ Java-Advanced-OOP-Assignments/
 │   ├── SalariedEmployee.java
 │   └── ContractEmployee.java
 │
-└── mainAssignment.java
+├── mainAssignment.java
+└── README.md
 ```
-
-Each package isolates a specific OOP principle.
 
 ---
 
-# 🎮 Interactive CLI Experience
+## 🎮 Interactive CLI Experience
 
-When executed, the program displays:
+When executed:
 
 ```
 ===== MAIN MENU =====
@@ -66,20 +69,17 @@ When executed, the program displays:
 
 Users can:
 
-- Navigate through structured submenus  
-- Create shapes dynamically  
-- Calculate area and perimeter  
-- Trigger overridden vehicle behavior  
-- Compute salary using interface polymorphism  
-- Handle invalid inputs gracefully  
-
-The application is fully menu-driven and interactive.
+- Create shapes and compute area/perimeter  
+- Start different vehicle types  
+- Calculate salary using interface-driven design  
+- Navigate structured submenus  
+- Handle invalid inputs safely  
 
 ---
 
-# 🔷 Assignment 4 — Shape Hierarchy
+## 🔷 Assignment 4 — Shape Hierarchy
 
-Concept: Abstract Class + Polymorphism
+Concept: Abstraction & Polymorphism
 
 ```
 Shape (abstract)
@@ -88,20 +88,14 @@ Shape (abstract)
    └── Triangle
 ```
 
-Each shape implements:
+Each subclass implements:
 
 - double area()
 - double perimeter()
 
-Demonstrates:
-- Abstraction  
-- Method overriding  
-- Runtime polymorphism  
-- Encapsulation  
-
 ---
 
-# 🚗 Assignment 5 — Vehicle Start Behavior
+## 🚗 Assignment 5 — Vehicle Behavior
 
 Concept: Inheritance & Dynamic Binding
 
@@ -115,14 +109,9 @@ Each subclass overrides:
 
 - void start()
 
-Demonstrates:
-- Code reuse  
-- Dynamic method dispatch  
-- Extensible hierarchy  
-
 ---
 
-# 💼 Assignment 6 — Employee Compensation
+## 💼 Assignment 6 — Employee Compensation
 
 Concept: Interface & Contract-Based Design
 
@@ -136,51 +125,46 @@ Each implementation defines:
 
 - double calculatePay()
 
-Demonstrates:
-- Interface as behavioral contract  
-- Loose coupling  
-- Polymorphism  
-- Clean separation of responsibilities  
-
 ---
 
-# 🧠 OOP Concepts Applied
+## 🧠 OOP Concepts Applied
 
 | Concept        | Implementation |
 |---------------|---------------|
 | Abstraction   | Shape abstract class |
 | Inheritance   | Car, Bike extend Vehicle |
 | Interface     | Payable |
-| Polymorphism  | Base references calling subclass implementations |
+| Polymorphism  | Base references calling subclass methods |
 | Encapsulation | Private fields with getters |
 | Overriding    | start() and calculatePay() |
 
 ---
 
-# ▶️ Running the Application
+## ▶️ How to Run
 
 Using IDE:
-Run mainAssignment.java
+Run `mainAssignment.java`
 
-Using terminal (Java 17+):
+Using terminal:
 
 javac -d out $(find . -name "*.java")
 java -cp out main.mainAssignment
 
 ---
 
-# 🚀 Future Enhancements
+## 📈 Version
 
-- Add JUnit testing layer  
-- Convert CLI to REST API using Spring Boot  
-- Add logging system  
-- Add database persistence  
-- Containerize using Docker  
-- Implement CI/CD pipeline  
+Current version: **1.0.0**
 
 ---
 
-# 👩‍💻 Author
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Author
 
 Maansi  
 GitHub: https://github.com/maansi1  
