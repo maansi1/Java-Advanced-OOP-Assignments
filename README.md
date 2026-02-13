@@ -1,101 +1,146 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=230&section=header&text=Maansi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Java%20Backend%20Developer%20%7C%20OOP%20%7C%20Spring%20Boot&descAlignY=60" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E3A8A&height=230&section=header&text=Java%20Advanced%20OOP%20Assignments&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Abstract%20Classes%20%7C%20Inheritance%20%7C%20Interfaces&descAlignY=60" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&center=true&vCenter=true&width=900&lines=Java+Backend+Developer;OOP+%7C+DSA+%7C+Problem+Solving;Spring+Boot+%7C+REST+APIs;Building+Projects+Daily+%F0%9F%9A%80" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/maansi1">
-    <img src="https://img.shields.io/badge/GitHub-maansi1-0F172A?style=for-the-badge&logo=github" />
+  <a href="https://github.com/maansi1/Java-Advanced-OOP-Assignments/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/maansi1/Java-Advanced-OOP-Assignments/ci.yml?style=for-the-badge&label=CI&color=2563EB" />
   </a>
-  <a href="https://www.linkedin.com/in/maansi-01a46a25a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=maansi1&style=for-the-badge&color=2563EB" />
+  <img src="https://img.shields.io/github/languages/top/maansi1/Java-Advanced-OOP-Assignments?style=for-the-badge&color=1E3A8A" />
+  <img src="https://img.shields.io/github/last-commit/maansi1/Java-Advanced-OOP-Assignments?style=for-the-badge&color=0F172A" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=850&lines=Clean+OOP+Architecture;Interactive+CLI+Application;Java+%7C+Polymorphism+%7C+Abstraction;Designed+for+Clarity+and+Scalability" />
 </p>
 
 ---
 
-## 👩‍💻 About
-- 💻 Java Backend Developer (in progress)
-- 🧠 OOP: Abstraction, Inheritance, Polymorphism, Encapsulation
-- 🌱 Spring Boot + REST APIs + MySQL
-- 🎯 Goal: Backend Engineer
+# 📌 Project Overview
+
+This repository demonstrates the **core pillars of Object-Oriented Programming in Java** through a structured, interactive CLI application.
+
+✔ Abstract Classes  
+✔ Inheritance & Overriding  
+✔ Interfaces  
+✔ Polymorphism  
+✔ Encapsulation  
+
+The project is modular, cleanly structured, and interview-ready.
 
 ---
 
-## 🧰 Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,git,github,vscode,eclipse" />
-</p>
+# 🏗 Architecture Diagram
+
+            ┌──────────────────┐
+            │   mainAssignment │
+            └────────┬─────────┘
+                     │
+┌───────────────────────┼────────────────────────┐
+│ │ │
+▼ ▼ ▼
+
+assignment4_shapes assignment5_vehicles assignment6_employees
+(Abstraction) (Inheritance) (Interface)
+
+Shape Vehicle Payable
+├─ Circle ├─ Car ├─ SalariedEmployee
+├─ Rectangle └─ Bike └─ ContractEmployee
+└─ Triangle
+
 
 ---
 
-## ⭐ Featured Project
-### 🚀 Java Advanced OOP Assignments
-**Abstract Classes • Inheritance • Interfaces**  
-➡️ https://github.com/maansi1/Java-Advanced-OOP-Assignments
+# 🔷 Assignment 4 — Shape Hierarchy
 
----
+### Concept: Abstract Class + Runtime Polymorphism
 
-## 📈 GitHub Analytics (Auto Theme)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=maansi1&show_icons=true&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=maansi1&show_icons=true&theme=default&hide_border=true" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=maansi1&show_icons=true&theme=default&hide_border=true" />
-  </picture>
+Shape (abstract)
+├── Circle
+├── Rectangle
+└── Triangle
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=maansi1&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=maansi1&theme=default&hide_border=true" />
-    <img height="170" src="https://streak-stats.demolab.com?user=maansi1&theme=default&hide_border=true" />
-  </picture>
-</p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=maansi1&layout=compact&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=maansi1&layout=compact&theme=default&hide_border=true" />
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maansi1&layout=compact&theme=default&hide_border=true" />
-  </picture>
-</p>
+Each subclass implements:
 
----
+```java
+double area();
+double perimeter();
+✔ Demonstrates abstraction
+✔ Demonstrates method overriding
+✔ Demonstrates polymorphism
 
-## 🏆 Trophies (Auto Theme)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=maansi1&theme=onedark&no-frame=true&row=1&column=7" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=maansi1&theme=flat&no-frame=true&row=1&column=7" />
-    <img src="https://github-profile-trophy.vercel.app/?username=maansi1&theme=flat&no-frame=true&row=1&column=7" />
-  </picture>
-</p>
+🚗 Assignment 5 — Vehicle Behavior
+Concept: Inheritance & Dynamic Binding
+Vehicle
+   ├── Car
+   └── Bike
+Each subclass overrides:
 
----
+void start();
+✔ Code reuse
+✔ Runtime method dispatch
+✔ Clean class hierarchy
 
-## 🐍 Contribution Snake (Auto Theme)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maansi1/maansi1/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maansi1/maansi1/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/maansi1/maansi1/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+💼 Assignment 6 — Employee Compensation
+Concept: Interface & Contract-based Design
+Payable (interface)
+   ├── SalariedEmployee
+   └── ContractEmployee
+Each class implements:
 
----
+double calculatePay();
+✔ Interface-based abstraction
+✔ Loose coupling
+✔ Polymorphic behavior
 
-## 📊 Activity Graph (Auto Theme)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=maansi1&theme=tokyo-night&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=maansi1&theme=minimal&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=maansi1&theme=minimal&hide_border=true" />
-  </picture>
-</p>
+🎮 Interactive CLI Demo
+<p align="center"> <img src="assets/demo.gif" width="750"/> </p>
+Replace assets/demo.gif with your actual recorded demo GIF.
 
-<p align="center">
-  ⚡ Consistency > Motivation
-</p>
+▶️ How to Run
+🖥 Using IDE
+Open project in IntelliJ / Eclipse / VS Code
+
+Run mainAssignment.java
+
+Use interactive menu
+
+💻 Using Terminal (Java 17)
+javac -d out $(find . -name "*.java")
+java -cp out main.mainAssignment
+🧠 OOP Concepts Summary
+Concept	Implementation
+Abstraction	Shape abstract class
+Inheritance	Car, Bike extend Vehicle
+Interface	Payable
+Polymorphism	Base references calling subclass methods
+Encapsulation	Private fields + getters
+Overriding	start() & calculatePay()
+📚 Key Learning Outcomes
+Designing scalable class hierarchies
+
+Applying interface-driven design
+
+Understanding dynamic method dispatch
+
+Structuring modular Java applications
+
+Building interactive CLI programs
+
+💎 Why This Project Stands Out
+This project demonstrates:
+
+✔ Clean architectural separation
+✔ Strong grasp of core OOP principles
+✔ Professional code organization
+✔ Interactive user-driven execution
+✔ Production-style modular structure
+
+👩‍💻 Author
+Maansi
+
+🔗 GitHub: https://github.com/maansi1
+🔗 LinkedIn: https://www.linkedin.com/in/maansi-01a46a25a/
+
+<p align="center"> ⭐ If you found this project useful, consider giving it a star! </p> ```
